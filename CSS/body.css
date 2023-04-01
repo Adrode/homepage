@@ -1,0 +1,14 @@
+
+.body {
+    background-color: #dfdfdf;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 1000px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body--dark {
+    background-color: hsl(0, 0%, 45%);
+    color: rgb(255, 255, 255);
+}

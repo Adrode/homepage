@@ -1,0 +1,32 @@
+.section {
+    margin-top: 30px;
+}
+
+.section--underline {
+    padding: 10px;
+    border-bottom: 2px solid;
+    border-bottom-right-radius: 15px;
+    min-width: 200px;
+}
+
+.section__aboutMe {
+    line-height: 2.0;
+    padding-left: 15px;
+}
+
+.section__button {
+    color: white;
+    background-color: rgb(122, 10, 32);
+    border: 2px solid black;
+    padding: 5px 10px;
+
+    box-shadow: 5px 3px 10px 5px #444;
+}
+
+.section__button:hover {
+    background-color: hsl(348, 85%, 30%);
+}
+
+.section__button:active {
+    background-color: hsl(348, 85%, 35%);
+}

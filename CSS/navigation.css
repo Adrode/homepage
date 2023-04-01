@@ -1,0 +1,27 @@
+.navigation__list {
+    list-style: none;
+    list-style-position: inside;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(348, 85%, 18%);
+    border-bottom: 1px solid;
+}
+
+.navigation__link:focus {
+    outline: none;
+    color: hsl(348, 85%, 27%);
+}
+
+.navigation__link:hover {
+    color: hsl(348, 85%, 27%);
+}
+
+.navigation__link:active {
+    border-bottom: 1px solid;
+    color: hsl(348, 85%, 33%);
+}

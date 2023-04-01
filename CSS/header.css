@@ -1,0 +1,9 @@
+.body__header {
+    border-bottom: 2px solid;
+    border-bottom-right-radius: 15px;
+    min-width: 200px;
+}
+
+.body__header--changed {
+    color: rgb(122, 10, 32);
+}

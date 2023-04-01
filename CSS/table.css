@@ -1,0 +1,40 @@
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 50px auto 0px;
+    width: 90%;
+}
+
+.tableResponsiveness {
+    overflow-x: auto;
+}
+
+.table__caption {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+
+    text-shadow: 1px 1px 10px #000;
+}
+
+.table__data {
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 50%);
+}
+
+.table__header {
+    background-color: rgb(156, 26, 52);
+    color: white;
+    font-weight: normal;
+}
+
+.table__header--main {
+    background-color: rgb(122, 10, 32);
+    color: white;
+}
+
+.table__row:hover {
+    color: rgb(75, 75, 75);
+}
