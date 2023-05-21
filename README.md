@@ -6,4 +6,8 @@
 
 ## Info
 
-This is my page. It contains HTML, CSS and JavaScript code. The website is under constant development.
+This is my personal homepage. The site contains information about my life and my interests.
+The website is under constant development.
+
+The code includes HTNL, CSS and JavaScript code.
+In the code you can find the bundled font from Google Fonts and OpenGraph tags.
