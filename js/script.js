@@ -6,7 +6,8 @@
     const toggleBackground = (toggleThemeButton) => {
         const body = document.querySelector(".js-body");
         body.classList.toggle("body--dark");
-        toggleThemeButton.innerText = body.classList.contains("body--dark") ? "Jasny kolor tła" : "Ciemny kolor tła";
+        const toggleButtonInnerText = document.querySelector(".js-toggleThemeButton");
+        toggleButtonInnerText.innerText = body.classList.contains("body--dark") ? "Jasny kolor tła" : "Ciemny kolor tła";
     }
 
     const toggleHeaderColor = () => {
