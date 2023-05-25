@@ -3,23 +3,23 @@
         console.log("Hello, fellas developas!");
     }
 
-    const toggleBackground = (button1) => {
-        const body = document.querySelector(".body");
+    const toggleBackground = (toggleThemeButton) => {
+        const body = document.querySelector(".js-body");
         body.classList.toggle("body--dark");
-        button1.innerText = body.classList.contains("body--dark") ? "Jasny kolor tła" : "Ciemny kolor tła";
+        toggleThemeButton.innerText = body.classList.contains("body--dark") ? "Jasny kolor tła" : "Ciemny kolor tła";
     }
 
     const toggleHeaderColor = () => {
-        const header = document.querySelector(".body__header");
-        header.classList.toggle("body__header--changed");
+        const header = document.querySelector(".js-bodyHeader");
+        header.classList.toggle("body__header--secondary");
     }
 
     const init = () => {
-        const button1 = document.querySelector(".js-button1");
-        const button2 = document.querySelector(".js-button2");
+        const toggleThemeButton = document.querySelector(".js-toggleThemeButton");
+        const toggleHeaderColorButton = document.querySelector(".js-toggleHeaderColorButton");
 
-        button1.addEventListener("click", toggleBackground);
-        button2.addEventListener("click", toggleHeaderColor);
+        toggleThemeButton.addEventListener("click", toggleBackground);
+        toggleHeaderColorButton.addEventListener("click", toggleHeaderColor);
 
         welcome();
     }
